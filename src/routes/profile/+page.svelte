@@ -33,6 +33,8 @@
     <img class="avatar" alt="Здесь аватарка, но она не работает." src="/profile-icon.jpg">
     <div class="nickname">{nickname}</div>
     <div class="uuid">ID: {uuid}</div>
+
+    <button type="submit" class="btn-exit">Выйти</button>
 </div>
 
 <style>
@@ -62,5 +64,19 @@
         color:black;
         font: 20px "Fira Sans", sans-serif;
         margin: 10px 0 0 550px;
+    }
+
+    .btn-exit{
+        border-radius: 10px;
+        border: none;
+        color: #fff;
+        display: block;
+        width: 130px;
+        text-align: center;
+        font-size: 15px;
+        padding: 8px 20px;
+        margin: 130px 0 0 300px;
+        text-decoration: none;
+        background-color: #629C5D;
     }
 </style>
