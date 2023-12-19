@@ -57,21 +57,21 @@
         border-radius: 50%;
         position: absolute;
         /* border: 1px solid black; */
-        top: 250px;
-        left: 270px;
+        top: 270px;
+        left: 350px;
         box-shadow: 0 0 10px #444;
     }
 
     .nickname {
         color:black;
         font: 30px "Fira Sans", sans-serif;
-        margin: 90px 0 0 550px;
+        margin: 90px 0 0 600px;
     }
 
     .uuid {
         color:black;
         font: 20px "Fira Sans", sans-serif;
-        margin: 10px 0 0 550px;
+        margin: 10px 0 0 600px;
     }
 
     .btn-exit{
@@ -83,14 +83,14 @@
         text-align: center;
         font-size: 15px;
         padding: 8px 20px;
-        margin: 150px 0 0 300px;
+        margin: 170px 0 0 380px;
         text-decoration: none;
         background-color: #629C5D;
     }
 
     ul.nav {
         list-style: none;
-        margin: -330px 0 0 200px;
+        margin: -350px 0 0 200px;
     }
     .nav li { 
         float: left;
