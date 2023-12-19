@@ -30,11 +30,19 @@
     <Border style="width: 150px;height: 150px;top: 330px;left: 240px;border: 1px solid #629C5D;filter: blur(3px);"></Border>
     <Circle style="width: 150px;height: 150px;top: 320px;left: 250px;filter: blur(3px);"></Circle>
 
-    <img class="avatar" alt="Здесь аватарка, но она не работает." src="/profile-icon.jpg">
+    <img class="avatar" alt="Здесь аватарка, но она не работает." src="/profile-icon.jpg"> 
     <div class="nickname">{nickname}</div>
     <div class="uuid">ID: {uuid}</div>
 
     <button type="submit" class="btn-exit">Выйти</button>
+
+    <ul class="nav">
+        <li><a href="">Task Manager</a></li>
+        <li><a href="">Messenger</a></li>
+        <li><a href="">Music</a></li>
+        <li><a href="">Profile</a></li>
+    </ul>
+
 </div>
 
 <style>
@@ -49,7 +57,7 @@
         border-radius: 50%;
         position: absolute;
         /* border: 1px solid black; */
-        top: 230px;
+        top: 250px;
         left: 270px;
         box-shadow: 0 0 10px #444;
     }
@@ -75,8 +83,32 @@
         text-align: center;
         font-size: 15px;
         padding: 8px 20px;
-        margin: 130px 0 0 300px;
+        margin: 150px 0 0 300px;
         text-decoration: none;
         background-color: #629C5D;
     }
+
+    ul.nav {
+        list-style: none;
+        margin: -330px 0 0 200px;
+    }
+    .nav li { 
+        float: left;
+    }
+    ul.nav a {
+        display: block;
+        width: 130px;
+        padding: 10px;
+        margin: 0 50px;
+        text-decoration: none;
+        color: black;
+        text-align: center;
+        background: none;
+        font: 20px "Fira Sans", sans-serif;
+    }
+    ul.nav a:hover{
+        background: none;
+        color: #f4f4f4;
+    }
+
 </style>
