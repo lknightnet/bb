@@ -7,6 +7,8 @@ npm install #не забудь перейти в директорию проек
 npm run dev #сам запуск проекта.
 ```
 
+# Страница и их адреса
+
 <p><a href="http://localhost:5173">http://localhost:5173</a> — Главная страница проекта.<br>
     Она находится в src/routes/+page.svelte
 </p>
