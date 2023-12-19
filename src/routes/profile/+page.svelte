@@ -4,6 +4,7 @@
     import {onMount} from "svelte";
     import Border from "../../components/Border.svelte";
     import Circle from "../../components/Circle.svelte";
+    import NavButton from "../../components/NavButton.svelte";
 
     let uuid = "";
     let nickname = "";
@@ -36,12 +37,7 @@
 
     <button type="submit" class="btn-exit">Выйти</button>
 
-    <ul class="nav">
-        <li><a href="">Task Manager</a></li>
-        <li><a href="">Messenger</a></li>
-        <li><a href="">Music</a></li>
-        <li><a href="">Profile</a></li>
-    </ul>
+    <NavButton/>
 
 </div>
 
@@ -86,29 +82,6 @@
         margin: 170px 0 0 380px;
         text-decoration: none;
         background-color: #629C5D;
-    }
-
-    ul.nav {
-        list-style: none;
-        margin: -350px 0 0 200px;
-    }
-    .nav li { 
-        float: left;
-    }
-    ul.nav a {
-        display: block;
-        width: 130px;
-        padding: 10px;
-        margin: 0 50px;
-        text-decoration: none;
-        color: black;
-        text-align: center;
-        background: none;
-        font: 20px "Fira Sans", sans-serif;
-    }
-    ul.nav a:hover{
-        background: none;
-        color: #f4f4f4;
     }
 
 </style>

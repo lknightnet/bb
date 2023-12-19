@@ -60,8 +60,7 @@
                 let obj = await responseLogin.json()
                 localStorage.setItem("nickname", obj.name);
                 localStorage.setItem("uuid", obj.uuid);
-                // console.log(responseLogin.headers.get("Authorization"))
-                // document.cookie = "Authorization=Bearer" + responseLogin.headers.get("Authorization") + ";HttpOnly"
+                localStorage.setItem("token", responseLogin.headers.get("Authorization"))
                 window.location.href = "/profile"
             }
         } catch (err){
