@@ -201,7 +201,7 @@
         text-align: center;
         font-size: 15px;
         padding: 8px 20px;
-        margin: -35px 0 0 130px;
+        margin: -30px 0 0 130px;
         text-decoration: none;
         background-color: #629C5D;
     }
