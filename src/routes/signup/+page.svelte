@@ -103,6 +103,7 @@
         margin: 40px auto;
         text-decoration: none;
         background-color: #629C5D;
+        border: none;
     }
 
     .a-btn-auth{

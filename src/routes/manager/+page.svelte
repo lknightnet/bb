@@ -27,12 +27,15 @@
 <div class="manager">
     <Name>B<span class="and">&</span>B</Name>
     <Subname>Task Manager</Subname>
-
+  
     <div class="rectangle-block">
         <center>{nameProjectOne}</center>
         <p>
             {descriptionProjectOne}
         </p>
+
+        <a href="#"><img class="gear" src="/gear.png" style="width: 30px; heigh:30px">
+            
     </div>
     <div class="rectangle-block1">
         <button class="new">Новый проект</button>
@@ -45,7 +48,27 @@
     </div>
 </div>
 
+<div>
+    
+</div>
+<!-- <div>
+    <div id="zatemnenie">
+        <div id="okno">
+          <a href="#" class="close">×</a>
+          ID
+        </div>
+      </div>
+       
+      <a href="#zatemnenie">Свойства</a>
+</div> -->
+
+
 <style>
+    .gear{
+        position: relative;
+        top: -30px;
+        left: 220px;
+    }
     .and {
         font-size: 90px;
     }
@@ -115,5 +138,52 @@
         color: white;
         width: 160px;
         height: 40px;
+        border: none;
     }
+    /* #zatemnenie {
+        background: rgba(102, 102, 102, 0.5);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+    }
+    #okno {
+        width: 500px;
+        height: 300px;
+        text-align: left;
+        padding: 15px;
+        border-radius: 10px;
+        color: black;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        background: #BBE7B7;
+        box-shadow: 0 0 10px #444;
+    }
+    #zatemnenie:target {
+        display: block;
+    }
+
+    .close {
+        display: inline-block;
+        border: none;
+        height: 30px;
+        width: 30px;
+        border-radius: 20px;
+        color: white;
+        padding: 0;
+        margin: 0 0 0 470px;
+        text-decoration: none;
+        text-align: center;
+        font: 30px "Fira Sans", sans-serif;
+        background: #629C5D;
+        font-size: 20pt;
+        cursor:pointer;
+    } */
+
 </style>

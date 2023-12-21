@@ -28,7 +28,7 @@
     }
     ul.nav a:hover{
         background: none;
-        color: red;
+        color: #BBE7B7;
     }
 </style>
 
