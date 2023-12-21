@@ -22,6 +22,12 @@
         }
     });
 
+    let show = false;
+
+    function clickToDivOne(){
+        show = true;
+    }
+
 </script>
 
 <div class="manager">
@@ -29,27 +35,33 @@
     <Subname>Task Manager</Subname>
   
     <div class="rectangle-block">
-        <center>{nameProjectOne}</center>
-        <p>
-            {descriptionProjectOne}
-        </p>
+        <a href="#" on:click={clickToDivOne}>
+            <center>{nameProjectOne}</center>
+            <p>
+                {descriptionProjectOne}
+            </p>
 
-        <a href="#"><img class="gear" src="/gear.png" style="width: 30px; heigh:30px">
-            
+            <a href="#"><img class="gear" src="/gear.png" style="width: 30px; heigh:30px"></a>
+        </a>
     </div>
-    <div class="rectangle-block1">
-        <button class="new">Новый проект</button>
-    </div>
-    <div class="rectangle-block2">
-        <button class="new">Новый проект</button>
-    </div>
-    <div class="rectangle-block3">
-        <button class="new">Новый проект</button>
-    </div>
-</div>
 
-<div>
-    
+    {#if show === true}
+
+        <div class="notes">ЗДЕСЬ ПИСАТЬ ЭТУ ТАБЛИЧКУ.</div>
+
+    {:else if show === false}
+
+        <div class="rectangle-block1">
+            <button class="new">Новый проект</button>
+        </div>
+        <div class="rectangle-block2">
+            <button class="new">Новый проект</button>
+        </div>
+        <div class="rectangle-block3">
+            <button class="new">Новый проект</button>
+        </div>
+
+    {/if}
 </div>
 <!-- <div>
     <div id="zatemnenie">
