@@ -68,7 +68,7 @@
             
             <div class="tasks">
                 <ul class="task-list">
-                    <li><div class="square"></div></li>
+                    <li><div class="square"></div>текст чуть-чуть не работает, только не ругайся ❤</li>
                     <li><div class="square"></div></li>
                     <li><div class="square"></div></li>
                     <li><div class="square"></div></li>
@@ -201,7 +201,7 @@
         text-align: center;
         font-size: 15px;
         padding: 8px 20px;
-        margin: -25px 0 0 130px;
+        margin: -35px 0 0 130px;
         text-decoration: none;
         background-color: #629C5D;
     }
@@ -224,13 +224,12 @@
     }
     .square{
         display: block;
-        margin: 20px 0 0 -10px;
+        margin: 30px 0 0 0;
         width: 30px;
         height: 30px;
         background: white;
         border: 1px solid black;
-        border-radius: 5px;
-        
+        border-radius: 5px; 
     }
 
     #zatemnenie {
