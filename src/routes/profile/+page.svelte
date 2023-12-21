@@ -15,6 +15,11 @@
         }
     )
 
+    function clear(){
+        localStorage.clear()
+        window.location.href = "/"
+    }
+
 
 </script>
 
@@ -35,7 +40,7 @@
     <div class="nickname">{nickname}</div>
     <div class="uuid">ID: {uuid}</div>
 
-    <button type="submit" class="btn-exit">Выйти</button>
+    <button type="submit" on:click={clear} class="btn-exit">Выйти</button>
 
     <NavButton/>
 

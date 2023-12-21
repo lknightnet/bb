@@ -1,6 +1,7 @@
 <script>
 import Subname from "../../components/Subname.svelte";
 import Name from "../../components/Name.svelte";
+import NavButton from "../../components/NavButton.svelte";
 </script>
 
 <div class="aboutus">
@@ -18,7 +19,10 @@ import Name from "../../components/Name.svelte";
             Хисымутдинова Регина</div>
     </div>
 
+    <NavButton style="margin: -310px 0 0 400px;"/>
+
     <div class="rectangle text">Сайт разработан B&B и студентами БГПУ им. М. Акмуллы в 2023 году</div>
+
 </div>
 
 <style>
@@ -28,7 +32,7 @@ import Name from "../../components/Name.svelte";
     }
 
     .rectangle {
-        margin: 325px 0 0 0;
+        margin: 660px 0 0 0;
         width: 100%;
         height: 100px;
         background: black;

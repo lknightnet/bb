@@ -1,5 +1,5 @@
 <div class="nav-button">
-    <ul class="nav">
+    <ul class="nav" style={stylish}>
         <li><a href="/manager">Task Manager</a></li>
         <li><a href="/messenger">Messenger</a></li>
         <li><a href="/music">Music</a></li>
@@ -31,3 +31,7 @@
         color: red;
     }
 </style>
+
+<script>
+    let stylish = $$props.style
+</script>

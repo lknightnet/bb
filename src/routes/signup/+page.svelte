@@ -49,7 +49,7 @@
 
     async function signup() {
         try {
-            const responseSignup = await fetch("http://localhost:8002/signup", {
+            const responseSignup = await fetch("http://localhost:8000/auth/signup", {
                 method: "POST",
                 body: JSON.stringify(data),
                 headers: {
@@ -65,7 +65,7 @@
                 localStorage.setItem("uuid", obj.uuid);
             }
 
-            const responseLogin = await fetch("http://localhost:8002/login",{
+            const responseLogin = await fetch("http://localhost:8000/auth/login",{
                 method: "POST",
                 body: JSON.stringify(data),
                 headers: {
